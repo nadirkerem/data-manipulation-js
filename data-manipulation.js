@@ -35,7 +35,9 @@ const isUnique =
 const isValid = isSum50 && isTwoOdd && isUnder25 && isUnique;
 
 // Finally, log the results.
-console.log(isValid);
+console.log(
+  `The four numbers are valid according to the provided criteria: ${isValid}.`
+);
 
 // Check if all numbers are divisible by 5.
 const allDivisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
@@ -50,3 +52,12 @@ Multiply the result by the third number.
 Find the remainder of dividing the result by the fourth number.
 */
 const arithmetic = (n2 - n1 + n3) % n4;
+
+// Log the results.
+console.log(`All numbers are divisible by 5: ${allDivisibleBy5}.`);
+
+console.log(
+  `The first number is larger than the last: ${isFirstLargerThanLast}.`
+);
+
+console.log(`The result of the arithmetic chain is: ${arithmetic}.`);
