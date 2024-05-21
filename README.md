@@ -1,4 +1,4 @@
-# Per Scholas JavaScript Assignment
+# Data Manipulation in JavaScript - Per Scholas Assignment
 
 ## Overview
 
