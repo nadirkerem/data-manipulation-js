@@ -35,3 +35,17 @@ const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 
 // Finally, log the results.
 console.log(isValid);
+
+// Check if all numbers are divisible by 5.
+const allDivisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
+
+// Check if the first number is larger than the last.
+const isFirstLargerThanLast = n1 > n4;
+
+/*
+Accomplish the following arithmetic chain:
+Subtract the first number from the second number.
+Multiply the result by the third number.
+Find the remainder of dividing the result by the fourth number.
+*/
+const arithmetic = (n2 - n1 + n3) % n4;
