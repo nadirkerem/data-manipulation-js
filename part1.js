@@ -53,7 +53,7 @@ Subtract the first number from the second number.
 Multiply the result by the third number.
 Find the remainder of dividing the result by the fourth number.
 */
-const arithmetic = (n2 - n1 + n3) % n4;
+const arithmetic = ((n2 - n1) * n3) % n4;
 
 // Log the results.
 console.log(`All numbers are divisible by 5: ${allDivisibleBy5}.`);
